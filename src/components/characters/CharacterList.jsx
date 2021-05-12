@@ -6,7 +6,7 @@ const CharacterList = ({ characters }) => (
   <div>
   <ul aria-label="characters">
     {characters.map((character) => (
-      <li className="content" key={character.id}>
+      <li className="content" key={character._id}>
         <Character
           name={character.name}
           image={character.image}
@@ -20,7 +20,7 @@ const CharacterList = ({ characters }) => (
 CharacterList.propTypes = {
   characters: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.string.isRequired,
+      _id: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
       image: PropTypes.string.isRequired,
     })
