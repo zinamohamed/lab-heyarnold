@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+* {
+  background-image: url("https://i.pinimg.com/736x/21/24/a7/2124a7049d720bebb75c8ab0709e7282.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Girassol', cursive;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+}
+
+li {
+  border: 2px solid red;
+  margin: 20px;
+  padding: 10px;
+  height: 300px;
+  width: 250px;
+  background: #FF6500;
+  color: black;
+
+}
+
+p {
+  background: #FFD227;
+  margin: 10px;
+  padding: 10px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}

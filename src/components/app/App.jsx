@@ -1,5 +1,7 @@
 import React from 'react';
+import HeyArnoldContainer from '../../containers/HeyArnoldContainer';
+import './App.css';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <HeyArnoldContainer />;
 }
